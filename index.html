@@ -198,6 +198,24 @@
     </div>
   </footer>
 
+  <!-- Firebase JS SDK -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+  <script>
+    // Firebase
+    var firebaseConfig = {
+      apiKey: "AIzaSyBaVkJXtzPotoJLp6RUz6kE5UNiQNVSdyI",
+      authDomain: "ilichh1-com.firebaseapp.com",
+      databaseURL: "https://ilichh1-com.firebaseio.com",
+      projectId: "ilichh1-com",
+      storageBucket: "ilichh1-com.appspot.com",
+      messagingSenderId: "445427121072",
+      appId: "1:445427121072:web:640c63f5e7e8a2b5423475",
+      measurementId: "G-QH03HK5W94"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
   <script src="https://unpkg.com/tippy.js@4"></script>
   <script src="./js/email.js"></script>
